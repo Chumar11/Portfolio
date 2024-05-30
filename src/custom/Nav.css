@@ -1,0 +1,29 @@
+.custom-hover::before{
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+    top: 28px;
+    }
+    .custom-hover:hover::before{
+      width: 100%;
+      opacity: 1;
+      transform: translateX(0);
+    }
+    .letter{
+      letter-spacing: -0.5px;
+  
+    }
+    .cutom{
+      background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    }
+    .cutom:hover{
+      background:#000;
+      color: #a993fe;
+      outline: 1.5px solid #a993fe;
+    }

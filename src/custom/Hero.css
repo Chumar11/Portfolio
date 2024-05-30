@@ -1,0 +1,42 @@
+
+.show:hover{
+    box-shadow: 0px 0px 5px 0px #a993fe;
+    
+}
+.e1::before{
+    content: "";
+    width: 15.125rem;
+    height: 15.125rem;
+    border-radius:  28.125rem; ;
+    background-color: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    top: -250px;
+    filter: blur(180px);
+
+}
+.e2::after{
+    content: "";
+    width: 15.125rem;
+    height: 15.125rem;
+    border-radius:  28.125rem; ;
+    background-color: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    top: 350px;
+    right: 20px;
+    filter: blur(180px);
+}
+.e11::before{
+    
+    content: "";
+    width: 10.125rem;
+    height: 10.125rem;
+    border-radius: 28.125rem;
+    background-color: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    top: -170px;
+    filter: blur(250px);
+    left: -100px
+}
